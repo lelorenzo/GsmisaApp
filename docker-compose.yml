@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  restapi:
+    image: restapi
+    build:
+      context: .
+      dockerfile: RestAPI\Dockerfile
